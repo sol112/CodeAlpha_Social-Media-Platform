@@ -1,0 +1,1 @@
+It is a mini social media app project given by CodeAlpha Internship on Full Stack Web Development. Features to implement: ● User profiles ● Posts & comments ● Like/follow system Frontend: HTML, CSS, JavaScript Backend: Express.js, Database for users, posts, comments, followers. Submitted to @CodeAlpha
