@@ -1,0 +1,40 @@
+<!-- ### `frontend/index.html`
+This file is the main page for the social media feed.
+
+```html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Feed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css)">
+</head>
+<body>
+    <header class="header">
+        <h1>Mini Social Media</h1>
+        <nav>
+            <a href="profile.html" id="my-profile-link">My Profile</a>
+            <button id="logout-btn">Logout</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="post-form">
+            <h2>Create a New Post</h2>
+            <form id="create-post-form">
+                <textarea id="post-content" placeholder="What's on your mind?" required></textarea>
+                <input type="text" id="post-image-url" placeholder="Optional image URL">
+                <button type="submit" class="btn">Post</button>
+            </form>
+        </section>
+
+        <section id="posts-container" class="posts-container">
+            <!-- Posts will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
